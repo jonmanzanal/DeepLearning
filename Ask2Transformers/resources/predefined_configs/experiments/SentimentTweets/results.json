@@ -1,0 +1,7 @@
+{
+    "finiteautomata/bertweet-base-sentiment-analysis": {
+        "test": {
+            "accuracy_score": 0.39029768467475195
+        }
+    }
+}

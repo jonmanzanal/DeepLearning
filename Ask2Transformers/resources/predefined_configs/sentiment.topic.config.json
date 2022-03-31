@@ -1,0 +1,19 @@
+{
+    "name": "SentimentTweets",
+    "task_name": "topic-classification",
+    "features_class": "a2t.tasks.text_classification.TopicClassificationFeatures",
+    "hypothesis_template": "The sentiment of the sentence is {label}.",
+    "nli_models": [
+        "finiteautomata/bertweet-base-sentiment-analysis"
+    ],
+    "labels": [
+        "0",
+        "1",
+        "2"
+    ],
+    "preprocess_labels": true,
+    "dataset": "sentiment",
+    "test_path": "/home/jon/Documentos/Projecto_Deep/twitter_validation.csv",
+    "use_cuda": true,
+    "half": true
+}
